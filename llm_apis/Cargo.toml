@@ -1,0 +1,11 @@
+[package]
+name = "llm_apis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+kalosm = "0.2.2"
+tiktoken-rs = "0.5.9"
+tokio = { version = "1.38.0", features = ["full"] }
