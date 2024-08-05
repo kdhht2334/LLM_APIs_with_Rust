@@ -7,5 +7,6 @@ edition = "2021"
 
 [dependencies]
 kalosm = "0.2.2"
-tiktoken-rs = "0.5.9"
 tokio = { version = "1.38.0", features = ["full"] }
+futures-util = "0.3"
+tokenizers = { version = "0.14.1", features = ["http"] }
