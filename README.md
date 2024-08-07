@@ -25,3 +25,7 @@ cargo add tiktoken-rs = "0.5.9"
 ```bash
 LIBCLANG_PATH=/path/to/clang+llvm-XX.X.XX-x86_64-pc-windows-msvc/lib cargo run --release
 ```
+
+# References
+
+- [Huggingface Tokenizers](https://github.com/huggingface/tokenizers)
